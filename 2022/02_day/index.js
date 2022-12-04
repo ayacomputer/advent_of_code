@@ -1,4 +1,3 @@
-import { join } from 'path';
 import { syncReadFile } from '../helpers/helper.js'
 const data_array = syncReadFile('./input.txt');
 console.log(data_array);
